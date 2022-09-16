@@ -1,7 +1,7 @@
 # Steps to run hello world program
-###install:
-####$ sudo apt-get update -y
-####$ sudo apt-get install -y kmod
+### install:
+''' $ sudo apt-get update -y
+$ sudo apt-get install -y kmod
 $ sudo lsmod
 $ sudo cat /proc/modules
 # sudo apt-get install kmod linux-headers-5.15.0-46-generic
@@ -16,3 +16,4 @@ $ sudo rmmod HelloWorld
 //(For removing module which was inserted by insmod command)
 $ tail /var/log/kern.log
 //(Checking logs whether its successful or not)
+'''
