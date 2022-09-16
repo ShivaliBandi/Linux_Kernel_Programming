@@ -1,7 +1,7 @@
 # Steps to run hello world program
 install:
-$ sudo apt-get update -y
-$ sudo apt-get install -y kmod
+  $ sudo apt-get update -y
+  $ sudo apt-get install -y kmod
 $ sudo lsmod
 $ sudo cat /proc/modules
 # sudo apt-get install kmod linux-headers-5.15.0-46-generic
